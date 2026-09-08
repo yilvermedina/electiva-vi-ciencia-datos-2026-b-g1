@@ -1,7 +1,9 @@
 # Parcial Práctico · Corte 1
 
-> **Asignatura:** Fundamentos de Analítica de Datos
-> **Estudiante:** Yilver Medina
+> **Asignatura:** Ciencia de Datos · Unidad 1 — Fundamentos de Ciencia de Datos y Big Data
+> **Programa:** Ingeniería Mecatrónica
+> **Estudiante:** Yilver Medina Urrea
+> **Periodo:** 2026-B · Corte 1
 > **Modalidad:** Individual
 > **Fecha de entrega:** 8 de septiembre de 2026
 > **Repositorio:** `05-week/parcial-c1`
