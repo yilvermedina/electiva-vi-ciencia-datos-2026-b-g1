@@ -1,0 +1,9 @@
+id_producto,nombre,categoria,precio
+P01,Tinto,Bebida caliente,3000
+P02,Americano,Bebida caliente,5000
+P03,Capuchino,Bebida caliente,8500
+P04,Latte,Bebida caliente,9000
+P05,Chocolate caliente,Bebida caliente,7500
+P06,Frappé de café,Bebida fría,11000
+P07,Croissant,Panadería,6000
+P08,Croissant de almendras,Panadería,8000
