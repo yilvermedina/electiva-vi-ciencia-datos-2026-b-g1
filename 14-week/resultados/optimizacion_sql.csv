@@ -1,0 +1,4 @@
+version,tiempo_ms,instrucciones_vm,plan,veces_mas_rapida
+A · Original,14.35,738075,SCAN v | USE TEMP B-TREE FOR GROUP BY | CORRELATED SCALAR SUBQUERY 1 | SCAN v2 | SEARCH d2 USING INDEX sqlite_autoindex_detalle_venta_1 (id_venta=?),1.0
+B · Reescrita (JOIN + rango),2.65,170577,SCAN v | SEARCH d USING INDEX sqlite_autoindex_detalle_venta_1 (id_venta=?) | USE TEMP B-TREE FOR GROUP BY | USE TEMP B-TREE FOR count(DISTINCT),5.4
+C · Reescrita + índice,1.68,103294,SEARCH v USING COVERING INDEX idx_venta_fecha (fecha>? AND fecha<?) | SEARCH d USING INDEX sqlite_autoindex_detalle_venta_1 (id_venta=?) | USE TEMP B-TREE FOR count(DISTINCT),8.5

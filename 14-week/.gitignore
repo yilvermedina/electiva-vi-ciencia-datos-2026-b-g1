@@ -1,0 +1,3 @@
+# la base SQLite se crea al correr optimizacion_sql.py
+*.db
+__pycache__/
